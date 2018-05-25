@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build: .
+    container_name: "laravel56"
+    ports:
+      - "56:80"
+    volumes:
+      - ./www/:/var/www/html
